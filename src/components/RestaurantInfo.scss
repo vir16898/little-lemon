@@ -1,0 +1,14 @@
+
+@import '../App.scss';
+
+.restaurant-info {
+    background-color: $priColor1;
+    padding: 30px;
+}
+.restaurant-image {
+    border-radius: 5%;
+}
+
+.restaurant-info p, .restaurant-info h2 {
+    color: $secColor3;
+}

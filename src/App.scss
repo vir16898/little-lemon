@@ -1,0 +1,108 @@
+$priColor1: #495E57;
+$priColor2: #F4CE14;
+$secColor1: #EE9972;
+$secColor2: #FBDABB;
+$secColor3: #EDEFEE;
+$secColor4: #333333;
+$priFont: 'Markazi', Georgia, 'Times New Roman', Times, serif;
+$secFont: 'Karla', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body {
+  font-family: $priFont;
+  font-size: 16px;
+}
+
+h1 {
+  color: $priColor2;
+  font-size: 2em;
+  margin: 0;
+}
+h2, p {
+  color: $secColor4;
+  font-family: $secFont;
+  margin: 10px 0;
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+
+
+
+header {
+  margin: 0 auto;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style-type: none;
+  margin: 0;
+}
+.header-logo {
+  padding: 10px 0 0 10px;
+}
+.nav-item {
+  font-family: $secFont;
+  font-weight: 500;
+  font-size: 17px;
+  color: $secColor4;
+  cursor: pointer;
+  text-align: center;
+  line-height: 60px;
+  color: $secColor4;
+  text-decoration: none;
+}
+.nav-item:hover {
+  color: $secColor4;
+  background-color: $priColor2;
+}
+
+
+
+
+.row {
+  margin: 0 auto;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.row.div-3 {
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 2%;
+}
+picture {
+  display: block;
+  overflow: hidden;
+}
+picture img {
+  width: 100%;
+}
+.menu-title {
+  margin-left: 30px;
+}
+
+
+
+
+
+
+.btn-primary {
+  display: inline-block;
+  background-color: $priColor2;
+  color: $secColor4;
+  border: 0;
+  font-size: 16pt;
+  font-family: $secFont;
+  font-weight: 500;
+  padding: 8px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: $secColor2;
+}
