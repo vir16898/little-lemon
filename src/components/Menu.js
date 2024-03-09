@@ -30,7 +30,7 @@ const foods = [
 const Menu = () => {
 
     return (
-        <div className="row div-3">
+        <div className="row div-3" aria-label="restaurant menu pickup">
             {foods.map((item) => (
             <MenuItem
                 key={item.title}

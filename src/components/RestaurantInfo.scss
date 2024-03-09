@@ -12,3 +12,18 @@
 .restaurant-info p, .restaurant-info h2 {
     color: $secColor3;
 }
+
+.restaurant-info h1 {
+    font-family: $priFont;
+}
+.restaurant-info .row.div-2 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+
+@media screen and (max-width: 415px) {
+    .restaurant-info .row.div-2 {
+        grid-template-columns: 100% 0%;
+    }
+}

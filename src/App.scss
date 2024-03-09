@@ -4,6 +4,7 @@ $secColor1: #EE9972;
 $secColor2: #FBDABB;
 $secColor3: #EDEFEE;
 $secColor4: #333333;
+$disColor1: #999999;
 $priFont: 'Markazi', Georgia, 'Times New Roman', Times, serif;
 $secFont: 'Karla', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -35,7 +36,16 @@ header {
   margin: 0 auto;
   max-width: 960px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 30% 70%;
+}
+main {
+  min-height: calc(100vh - 110px);
+}
+footer {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 960px;
+  font-size: 1.2em;
 }
 nav ul {
   display: grid;
@@ -89,6 +99,11 @@ picture img {
 
 
 
+.home-menu {
+  background-color: #FFFFFF;
+}
+
+
 
 
 .btn-primary {
@@ -102,7 +117,11 @@ picture img {
   padding: 8px 25px;
   border-radius: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 .btn-primary:hover {
   background-color: $secColor2;
+}
+.btn-primary:disabled {
+  background-color: $disColor1;
 }

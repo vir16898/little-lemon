@@ -1,0 +1,111 @@
+
+
+@import '../App.scss';
+
+
+section.booking-bg {
+    background-color: $priColor1;
+    padding: 0 30px;
+    color: $secColor3;
+    font-family: $secFont;
+    min-height: calc(100vh - 110px - 160px);
+}
+h3 {
+    margin: 0 0 15px 0;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.row.div-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+.row.div-2 {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+}
+
+picture {
+    margin: 0 0 15px 0;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-bottom: 30px;
+}
+div.div-1 {
+    grid-column-end: span 2;
+}
+div.div-2 {
+    grid-column-end: span 1;
+}
+input {
+    font-size: 1.3em;
+    width: 100%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0;
+}
+textarea {
+    font-size: 1.3em;
+    width: 100%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0;
+    font-family: $secFont;
+    height: calc(3lh + 16px);
+}
+input[type='date'] {
+    font-family: $secFont;
+    padding: 5px 10px 6px 10px;
+}
+select {
+    width: 100%;
+    font-size: 1.3em;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 0;
+}
+input[type='radio'] {
+    width: auto;
+    margin: auto 15px;
+    cursor: pointer;
+}
+.radio-gp label {
+    font-size: 1.3em;
+    cursor: pointer;
+}
+form .btn-primary {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+div.errorfield {
+    color:tomato;
+}
+
+.msg-box {
+    display: grid;
+    grid-template-rows: 3lh 7lh auto;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 960px) {
+}

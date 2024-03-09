@@ -12,7 +12,7 @@ function App() {
         <Header/>
 
         <footer>
-          Here is a footer
+          ©Little Lemon Restaurant @ 2024
         </footer>
       </BrowserRouter>
     </>
