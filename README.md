@@ -6,6 +6,10 @@ My capstone project to make a Little Lemon Restaurant Online Table Reservation
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install all dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.\
