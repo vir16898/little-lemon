@@ -53,6 +53,7 @@ function BookingUserForm (props) {
                             <label htmlFor="firstName">First Name:</label>
                             <input
                                 type="text"
+                                id="firstName"
                                 name="firstName"
                                 onChange={handleChange}
                                 onBlur={handleBlur}
@@ -64,6 +65,7 @@ function BookingUserForm (props) {
                             <label htmlFor="lastName">Last Name (Optional):</label>
                             <input
                                 type="text"
+                                id="lastName"
                                 name="lastName"
                                 onChange={handleChange}
                                 onBlur={handleBlur}
@@ -71,9 +73,10 @@ function BookingUserForm (props) {
                             />
                         </div>
                         <div className="div-1">
-                            <label htmlFor="phone">Phone:</label>
+                            <label htmlFor="phone">Phone number:</label>
                             <input
                                 type="phone"
+                                id="phone"
                                 name="phone"
                                 onChange={handleChange}
                                 onBlur={handleBlur}
@@ -85,6 +88,7 @@ function BookingUserForm (props) {
                             <label htmlFor="email">Email:</label>
                             <input
                                 type="email"
+                                id="email"
                                 name="email"
                                 onChange={handleChange}
                                 onBlur={handleBlur}
@@ -96,6 +100,7 @@ function BookingUserForm (props) {
                             <label htmlFor="special">Special request (Optional):</label>
                             <textarea
                                 type="comment"
+                                id="special"
                                 name="special"
                                 onChange={handleChange}
                                 onBlur={handleBlur}

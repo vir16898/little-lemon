@@ -93,7 +93,7 @@ picture img {
   width: 100%;
 }
 .menu-title {
-  margin-left: 30px;
+  margin: 20px 30px;
 }
 
 
@@ -101,6 +101,25 @@ picture img {
 
 .home-menu {
   background-color: #FFFFFF;
+}
+
+.about-section {
+  padding: 30px;
+}
+.about-section p {
+  font-size: 1.2em;
+}
+.about-section .row.div-2 {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+@media screen and (min-width: 600px) {
+    .about-section .row.div-2 {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
 }
 
 

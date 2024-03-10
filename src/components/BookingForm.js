@@ -111,13 +111,13 @@ function BookingForm (props) {
                     </div>
                     <div className="div-1">
                         <div id="seat-gp">Seat (Optional):</div>
-                        <div role="group" aria-labelledby="seat-group" className="radio-gp">
+                        <div role="group" aria-label="select the seat type" className="radio-gp">
                             <label>
-                                <Field type="radio" name="seat" value="Standard" aria-checked={values.seat === "Standard" ? true : false} />
+                                <Field type="radio" id="seat" name="seat" value="Standard" aria-checked={values.seat === "Standard" ? true : false} />
                                 Standard
                             </label><br/>
                             <label>
-                                <Field type="radio" name="seat" value="Outside" aria-checked={values.seat === "Outside" ? true : false} />
+                                <Field type="radio" id="seat" name="seat" value="Outside" aria-checked={values.seat === "Outside" ? true : false} />
                                 Outside
                             </label>
                         </div>
