@@ -15,7 +15,7 @@ const RestaurantInfo = (props) => {
           {props.showHome === true && (
             <div className="box">
               <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-              <Link to="/booking" className="btn-primary" role="button" aria-label="On Click">Reserve a table</Link>
+              <Link to="/booking" className="btn-primary" role="reserve" aria-label="On Click">Reserve a table</Link>
             </div>
           )}
         </div>

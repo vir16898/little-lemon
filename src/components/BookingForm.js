@@ -82,12 +82,13 @@ function BookingForm (props) {
                         <select
                             id="diner"
                             name="diner"
+                            data-testid="select-diner"
                             onChange={handleChange}
                             onBlur={handleBlur}
                             value={values.diner}
                         >
                             {availableDiner.map((item)=>(
-                                <option value={item} key={item} >{item}</option>
+                                <option data-testid="select-option-diner" value={item} key={item} >{item}</option>
                             ))}
                         </select>
                         <div className="errorfield">{errors.diner && touched.diner && errors.diner}</div>
