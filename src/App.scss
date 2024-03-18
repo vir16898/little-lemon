@@ -41,12 +41,6 @@ header {
 main {
   min-height: calc(100vh - 110px);
 }
-footer {
-  margin: 0 auto;
-  padding: 10px;
-  max-width: 960px;
-  font-size: 1.2em;
-}
 nav ul {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -101,18 +95,138 @@ picture img {
 
 .home-menu {
   background-color: #FFFFFF;
+  padding: 0 15px;
+  margin-bottom: 30px;
 }
+
+
+
+
+
+
+.testimonial-section {
+  background-color: $priColor1;
+    .center-wrapper {
+    max-width: 960px;
+    margin: 50px auto 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 25px;
+    column-gap: 25px;
+    .menu-title {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: $secColor3;
+    }
+    h2, p {
+      color: $secColor4;
+    }
+    p {
+      text-align: left;
+    }
+    .testimonial-item {
+      text-align: center;
+      background-color: $secColor3;
+      padding: 20px;
+      border-radius: 15px;
+      picture {
+        max-width: 160px;
+        max-height: 160px;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+  .testimonial-section {
+    grid-template-columns: auto auto;
+    .menu-title {
+      grid-column-start: span 2;
+    }
+  }
+}
+@media screen and (min-width: 960px) {
+}
+
+
+
+footer {
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  background-color: $secColor3;
+  color: $secColor4;
+  p {
+    margin: 10px auto;
+    max-width: 960px;
+    color: $priColor1;
+  }
+  .footer_stack {
+    margin: 0 auto;
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 30px;
+    section {
+      h3 {margin-top: 20px;}
+      ul {
+        list-style-type: "⮞ ";
+        padding: 0 0 0 20px;
+        li {
+          padding: 3px 0;
+        }
+      }
+      a {
+        font-family: $secFont;
+        color: $secColor4;
+      }
+    }
+    section.connect {
+      .stack_H {
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      }
+      img {
+        width: 24px;
+      }
+    }
+    .no-wrap {white-space: nowrap;}
+  }
+  @media screen and (min-width: 500px) {
+    .footer_stack {
+      grid-template-columns: auto auto;
+    }
+    section.connect {
+      grid-column-start: span 2;
+    }
+  }
+  @media screen and (min-width: 770px) {
+    .footer_stack {
+      grid-template-columns: auto auto auto;
+    }
+    section.connect {
+      grid-column-start: span 1;
+    }
+  }
+}
+
+
+
+
 
 .about-section {
   padding: 30px;
-}
-.about-section p {
-  font-size: 1.2em;
-}
-.about-section .row.div-2 {
+  p {
+    font-size: 1.2em;
+  }
+  .row.div-2 {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 20px;
     row-gap: 20px;
+  }
 }
 @media screen and (min-width: 600px) {
     .about-section .row.div-2 {

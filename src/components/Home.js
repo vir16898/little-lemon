@@ -2,6 +2,7 @@
 
 import RestaurantInfo from './RestaurantInfo';
 import Menu from './Menu';
+import Testimonial from './Testimonial';
 
 
 const foods = [
@@ -28,6 +29,13 @@ const foods = [
   },
 ];
 
+const testimonials = [
+  { avatar: () => require("../images/testimonials/01.jpg"), name: 'John Sung', content: '"The cuizines at Little Lemon are excellent! The salads are to die for!!!"' },
+  { avatar: () => require("../images/testimonials/02.jpg"), name: 'Sarah Rock', content: '"The service was impeccable! Little Lemon truly knows how to make diners feel welcome."' },
+  { avatar: () => require("../images/testimonials/03.jpg"), name: 'Joselyn Black', content: '"The food here is amazing, and the service is top-notch! Little Lemon is a gem in Chicago."' },
+  { avatar: () => require("../images/testimonials/04.jpg"), name: 'Eduardo Gimenez', content: '"As an Italian food enthusiast, I can confidently say that Little Lemon captures the essence of Mediterranean cuisine. Mario and Adrian’s dedication shines through every dish."' },
+]
+
 function Home () {
 
   return (
@@ -39,6 +47,15 @@ function Home () {
           <h2 className="menu-title">This weeks specials!</h2>
         </div>
         <Menu foods={foods} />
+      </section>
+
+      <section className="testimonial-section">
+        <div className="center-wrapper">
+          <h2 className="menu-title">Hearing from our diners💕</h2>
+          {testimonials.map((item) => (
+            <Testimonial key={item.name} avatar={item.avatar()} name={item.name} content={item.content} />
+          ))}
+        </div>
       </section>
     </>
   )
