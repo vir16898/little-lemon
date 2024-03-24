@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/little-lemon/static/css/main.ff71ffa8.css",
+    "main.js": "/little-lemon/static/js/main.f1e76810.js",
+    "static/js/453.99c1801e.chunk.js": "/little-lemon/static/js/453.99c1801e.chunk.js",
+    "static/media/restauranfood.png": "/little-lemon/static/media/restauranfood.d3f536aa57f45c2432b5.png",
+    "static/media/menu_bruchetta.png": "/little-lemon/static/media/menu_bruchetta.d7c8afb546a525635beb.png",
+    "static/media/menu_greeksalad.png": "/little-lemon/static/media/menu_greeksalad.bcfc48c279d092076692.png",
+    "static/media/Mario and Adrian A.png": "/little-lemon/static/media/Mario and Adrian A.253f4da54f3f401584cb.png",
+    "static/media/restaurantChefB.png": "/little-lemon/static/media/restaurantChefB.dff993bed568f8039884.png",
+    "static/media/Mario and Adrian b.png": "/little-lemon/static/media/Mario and Adrian b.11f97edd78db7b8f1b41.png",
+    "static/media/menu_gnocchi.jpg": "/little-lemon/static/media/menu_gnocchi.eaa779cd60bfd8741c27.jpg",
+    "static/media/menu_lemondessert.png": "/little-lemon/static/media/menu_lemondessert.2581a46758fbc105c24a.png",
+    "static/media/menu_Pizza.jpg": "/little-lemon/static/media/menu_Pizza.d943b08844060bf5c4de.jpg",
+    "static/media/menu_carbonara.jpg": "/little-lemon/static/media/menu_carbonara.b0c1ee7207458c406e7e.jpg",
+    "static/media/restaurant.jpg": "/little-lemon/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/X-Logo.png": "/little-lemon/static/media/X-Logo.69de3df5257f2a75013c.png",
+    "static/media/Logo.svg": "/little-lemon/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/02.jpg": "/little-lemon/static/media/02.ccdcea01362423e8e2bf.jpg",
+    "static/media/menu_Risotto.jpg": "/little-lemon/static/media/menu_Risotto.749e33edfed5a041dc74.jpg",
+    "static/media/03.jpg": "/little-lemon/static/media/03.ba5a7f9f30d58ab385d9.jpg",
+    "static/media/04.jpg": "/little-lemon/static/media/04.fa4be855aa1466a1fcb3.jpg",
+    "static/media/01.jpg": "/little-lemon/static/media/01.333854849cb34643a28e.jpg",
+    "static/media/instagram-logo.png": "/little-lemon/static/media/instagram-logo.23eef84e16d79d08384e.png",
+    "static/media/youtube-logo.png": "/little-lemon/static/media/youtube-logo.05545974e3fee01cf54a.png",
+    "index.html": "/little-lemon/index.html",
+    "main.ff71ffa8.css.map": "/little-lemon/static/css/main.ff71ffa8.css.map",
+    "main.f1e76810.js.map": "/little-lemon/static/js/main.f1e76810.js.map",
+    "453.99c1801e.chunk.js.map": "/little-lemon/static/js/453.99c1801e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff71ffa8.css",
+    "static/js/main.f1e76810.js"
+  ]
+}
