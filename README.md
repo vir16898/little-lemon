@@ -1,16 +1,8 @@
 # little-lemon
 
-My capstone project to make a Little Lemon Restaurant Online Table Reservation
+My capstone project for the course of Meta Front-End Developer , to make a Little Lemon Restaurant Online Table Reservation
 
-## Available Scripts
+A preview of the website : 
 
-In the project directory, you can run:
+https://vir16898.github.io/little-lemon/
 
-### `npm install`
-
-Install all dependencies
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
